@@ -37,6 +37,22 @@ ol, ul {
 	list-style: none;
 }
 
+.horizontal-list {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aligns the list items horizontally */
+    justify-content: center; /* Centers the list items */
+}
+
+.horizontal-list li {
+    margin-right: 20px; /* Adds spacing between list items */
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0; /* Removes the margin on the last item */
+}
+
 blockquote, q {
 	quotes: none;
 }
