@@ -1500,7 +1500,7 @@ input, select, textarea {
 		color: inherit; 
 		display: flex;
 		align-items: center;
-		gap: 5px; 
+		gap: 15px; 
 	}
 		
 	.social-links .icon {
