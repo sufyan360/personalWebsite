@@ -1490,19 +1490,18 @@ input, select, textarea {
 	.social-links {
 		display: flex;
 		justify-content: center; 
-		gap: 50px;  
 		align-items: center;
-	}
+		column-gap: 50px; /* Increased space between links */
+		}
 		
-	.social-links a {
+		.social-links a {
 		font-size: 20px; 
 		text-decoration: none;
 		color: inherit; 
 		display: flex;
 		align-items: center;
-		gap: 30px; 
-	}
+		}
 		
-	.social-links .icon {
+		.social-links .icon {
 		font-size: 28px; 
-	}  
+		}
