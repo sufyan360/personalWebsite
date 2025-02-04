@@ -1489,21 +1489,20 @@ input, select, textarea {
 
 	.social-links {
 		display: flex;
-		justify-content: center;  /* Centers the links */
-		gap: 15px;  /* Slightly reduced spacing between links */
+		justify-content: center; 
+		gap: 30px;  
 		align-items: center;
-		}
+	}
 		
-		.social-links a {
-		font-size: 20px; /* Slightly smaller text and icon size */
-		text-decoration: none; /* Removes underline */
-		color: inherit; /* Keeps default color */
+	.social-links a {
+		font-size: 20px; 
+		text-decoration: none;
+		color: inherit; 
 		display: flex;
 		align-items: center;
-		gap: 5px; /* Adds a small gap between icon and text */
-		}
+		gap: 5px; 
+	}
 		
-		.social-links .icon {
-		font-size: 28px; /* Slightly smaller FontAwesome icon size */
-		}
-				
+	.social-links .icon {
+		font-size: 28px; 
+	}  
