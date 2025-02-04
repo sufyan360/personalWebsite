@@ -1491,7 +1491,7 @@ input, select, textarea {
 		display: flex;
 		justify-content: center; 
 		align-items: center;
-		column-gap: 50px; /* Increased space between links */
+		column-gap: 35px; /* Increased space between links */
 		}
 		
 		.social-links a {
