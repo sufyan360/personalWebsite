@@ -1486,3 +1486,24 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+	.social-links {
+		display: flex;
+		justify-content: center;  /* Centers the links */
+		gap: 15px;  /* Slightly reduced spacing between links */
+		align-items: center;
+		}
+		
+		.social-links a {
+		font-size: 20px; /* Slightly smaller text and icon size */
+		text-decoration: none; /* Removes underline */
+		color: inherit; /* Keeps default color */
+		display: flex;
+		align-items: center;
+		gap: 5px; /* Adds a small gap between icon and text */
+		}
+		
+		.social-links .icon {
+		font-size: 28px; /* Slightly smaller FontAwesome icon size */
+		}
+				
